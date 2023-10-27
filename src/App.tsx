@@ -12,7 +12,7 @@ function App() {
         return <Loading/>
     }
     return (
-        <div className="container mx-auto max-w-7xl">
+        <div>
             <BrowserRouter>
                 <main>
                     <Routes>

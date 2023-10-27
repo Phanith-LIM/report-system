@@ -1,2 +1,2 @@
-export { PagesRoute } from "./routes";
-export { Loading } from "./components";
+export * from "./routes";
+export * from "./components";
