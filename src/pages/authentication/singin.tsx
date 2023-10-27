@@ -1,6 +1,6 @@
 import React from 'react';
-import {Button, Label, TextInput, Checkbox} from 'flowbite-react';
 import {motion} from "framer-motion";
+import {Button, Label, TextInput, Checkbox} from 'flowbite-react';
 
 export const SignIn: React.FC = () => {
     return (
@@ -53,9 +53,11 @@ export const SignIn: React.FC = () => {
                                 </a>
                             </div>
                             <motion.div
-                                whileHover={{ scale: 1.025 }}
-                                whileTap={{ scale: 0.98  }}
-                                transition={{ duration: 0.25 }}
+                                whileHover={{
+                                    scale: 1.025,
+                                    transition: { duration: 0.3 }
+                                }}
+                                whileTap={{ scale: 0.95 }}
                             >
                                 <Button type="submit" className="w-full">
                                     Sign in
