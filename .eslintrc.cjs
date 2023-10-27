@@ -12,8 +12,5 @@ module.exports = {
 
   rules: {
     "react-refresh/only-export-components": 0,
-    "env": {
-      "node": true
-    }
   },
 }
