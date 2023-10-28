@@ -1,6 +1,7 @@
 import React from "react";
-import {SignIn} from "./singin";
 import ruppLogo from "../../assets/rupp.jpg";
+import {Outlet} from "react-router-dom";
+
 
 export const Authentication: React.FC = () => {
     return (
@@ -13,7 +14,7 @@ export const Authentication: React.FC = () => {
             >
             </div>
             <div className="flex-auto">
-                <SignIn />
+                <Outlet />
             </div>
         </div>
     )
